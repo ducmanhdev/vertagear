@@ -1,0 +1,82 @@
+$main-color: #4f4cf7;
+$text-color: #000;
+@mixin max-media($point) {
+    @media screen and (max-width: $point) {
+        @content;
+    }
+}
+@mixin min-media($point) {
+    @media screen and (min-width: $point) {
+        @content;
+    }
+}
+@mixin line-clamp($line) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: $line;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+@mixin clear-fix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+@mixin fz-72 {
+    font-size: 72px;
+    line-height: 1.2;
+    @include max-media(768px) {
+        font-size: 50px;
+    }
+    @include max-media(500px) {
+        font-size: 34px;
+    }
+}
+@mixin fz-60 {
+    font-size: 60px;
+    line-height: 1.2;
+    @include max-media(768px) {
+        font-size: 48px;
+    }
+    @include max-media(500px) {
+        font-size: 32px;
+    }
+}
+@mixin fz-40 {
+    font-size: 40px;
+    line-height: 1.2;
+    @include max-media(768px) {
+        font-size: 30px;
+    }
+}
+@mixin fz-30 {
+    font-size: 30px;
+    line-height: 1.2;
+    @include max-media(768px) {
+        font-size: 24px;
+    }
+}
+@mixin fz-25 {
+    font-size: 25px;
+    line-height: 1.2;
+    @include max-media(768px) {
+        font-size: 22px;
+    }
+}
+@mixin fz-24 {
+    font-size: 24px;
+    line-height: 1.2;
+    @include max-media(768px) {
+        font-size: 22px;
+    }
+}
+@mixin fz-20 {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+@mixin fz-18 {
+    font-size: 18px;
+}

@@ -1,0 +1,502 @@
+.absolute_center {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+.red-border {
+  border-bottom: 6px solid #7e0c0c;
+}
+
+.template-page#faze-clan .main-content {
+  padding: 0;
+  max-width: inherit;
+}
+
+.template-page#faze-clan .main-content .gallery-wrapper .slick-slide {
+  margin-right: 10px;
+}
+
+.template-page#faze-clan .main-content .gallery-wrapper .slick-slide img {
+  width: 100%;
+}
+
+.template-page#faze-clan .main-content .product-wrapper {
+  background-image: url(../images/fazeclan-red-alert-bg.webp);
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.template-page#faze-clan .main-content .product-wrapper h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.template-page#faze-clan .main-content .product-wrapper .red-alert-product {
+  padding: 0 0 50px;
+  position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+  .template-page#faze-clan .main-content .product-wrapper .red-alert-product {
+    margin-top: -50px;
+  }
+}
+
+.template-page#faze-clan .main-content .product-wrapper .red-alert-product img {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  margin: -20px 0 0 -20px;
+  opacity: 1;
+  cursor: pointer;
+  background-image: url(../images/tooltip-node.webp);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+@media screen and (min-width: 1024px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node {
+    opacity: 1;
+  }
+}
+
+.template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node:hover {
+  background-image: url(../images/tooltip-node-active.webp);
+}
+
+.template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node1 {
+  top: 16%;
+  left: 49%;
+}
+
+@media screen and (min-width: 768px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node1 {
+    left: 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node1 {
+    top: 21%;
+  }
+}
+
+.template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node2 {
+  top: 7%;
+  left: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node2 {
+    left: 59%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node2 {
+    top: 9%;
+    left: 66%;
+  }
+}
+
+.template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node3 {
+  top: 11%;
+  left: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node3 {
+    left: 64%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node3 {
+    top: 15%;
+    left: 75%;
+  }
+}
+
+.template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node4 {
+  top: 20%;
+  left: 64%;
+}
+
+@media screen and (min-width: 768px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node4 {
+    left: 57%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node4 {
+    top: 25%;
+    left: 62%;
+  }
+}
+
+.template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node5 {
+  top: 37%;
+  left: 75%;
+}
+
+@media screen and (min-width: 768px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node5 {
+    left: 63%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node5 {
+    top: 47%;
+    left: 72%;
+  }
+}
+
+.template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node6 {
+  top: 51%;
+  left: 51%;
+}
+
+@media screen and (min-width: 768px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node6 {
+    left: 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node6 {
+    top: 68%;
+    left: 51%;
+  }
+}
+
+.template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node7 {
+  top: 62%;
+  left: 54%;
+}
+
+@media screen and (min-width: 1024px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node7 {
+    top: 79%;
+    left: 56%;
+  }
+}
+
+.template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node8 {
+  top: 68%;
+  left: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node8 {
+    left: 61%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-product
+.node.node8 {
+    top: 86%;
+    left: 68%;
+  }
+}
+
+.template-page#faze-clan
+.main-content
+.product-wrapper.snow-storm
+.red-alert-product
+.node.node6 {
+  left: 53%;
+}
+
+@media screen and (min-width: 768px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper.snow-storm
+.red-alert-product
+.node.node6 {
+    left: 52%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper.snow-storm
+.red-alert-product
+.node.node6 {
+    top: 65%;
+    left: 53%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper.snow-storm
+.red-alert-product
+.node.node7 {
+    top: 76%;
+    left: 60%;
+  }
+}
+
+.template-page#faze-clan
+.main-content
+.product-wrapper.snow-storm
+.red-alert-product
+.node.node8 {
+  top: 65%;
+  left: 75%;
+}
+
+@media screen and (min-width: 768px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper.snow-storm
+.red-alert-product
+.node.node8 {
+    left: 61%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper.snow-storm
+.red-alert-product
+.node.node8 {
+    top: 86%;
+    left: 70%;
+  }
+}
+
+.template-page#faze-clan .main-content .product-wrapper .red-alert-feat {
+  padding: 0 0 50px;
+}
+
+@media screen and (min-width: 1024px) {
+  .template-page#faze-clan .main-content .product-wrapper .red-alert-feat {
+    padding: 125px 0 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .template-page#faze-clan
+.main-content
+.product-wrapper
+.red-alert-feat
+.red-alert-feat-slider {
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+.template-page#faze-clan
+.main-content
+.product-wrapper
+.slick-vertical
+.slick-slide {
+  margin-bottom: 10px;
+}
+
+.template-page#faze-clan .main-content .product-wrapper .slider figure .text {
+  background-color: #313131;
+  padding: 10px;
+  color: #fff;
+}
+
+.template-page#faze-clan .main-content .product-wrapper .slider figure img {
+  width: 100%;
+}
+
+.template-page#faze-clan .slick-dots {
+  bottom: -40px;
+}
+
+.template-page#faze-clan .slick-dots li {
+  margin: 0;
+}
+
+.template-page#faze-clan .slick-dots li button:before {
+  font-size: 45px;
+  color: #717171;
+}
+
+.template-page#faze-clan .buy-now {
+  text-align: center;
+  padding: 50px 0 40px;
+}
+
+@media screen and (min-width: 1024px) {
+  .template-page#faze-clan .buy-now {
+    padding: 50px 0 0;
+    text-align: left;
+  }
+}
+
+.template-page#faze-clan .buy-now-link a {
+  background-color: #c21819;
+  color: #fff;
+  display: block;
+  width: 125px;
+  padding: 5px;
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  z-index: 10;
+}
+
+.template-page#faze-clan .buy-now-bottom {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.template-page#faze-clan .buy-now-bottom a {
+  background-color: #c21819;
+  color: #fff;
+  display: block;
+  width: 180px;
+  padding: 15px;
+  margin: 30px auto 0;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+.template-page#faze-clan select {
+  background-color: #fff;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-position: right center;
+  background-image: url(../images/select-3.svg);
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-color: transparent;
+  padding-right: 28px;
+  text-indent: 0.01px;
+  text-overflow: '';
+  cursor: pointer;
+}
